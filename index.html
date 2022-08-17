@@ -1,33 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Relogio digital</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <h1>Relógio digital</h1>
 
     <main id="relogio">
-
+      <div class="relogio-visor">
+        <p>horas</p>
         <span id="hora" class="visor">00</span>
-        :
+      </div>
+      :
+      <div class="relogio-visor">
+        <p>minutos</p>
+
         <span id="minuto" class="visor">00</span>
-        :
+      </div>
+      :
+      <div class="relogio-visor">
+        <p>Segundos</p>
         <span id="segundo" class="visor">00</span>
-        
+      </div>
     </main>
 
-
     <script src="relogio.js"></script>
-
-</body>
-
+  </body>
 </html>
